@@ -39,10 +39,10 @@ public class BookService {
 		bookRepository.save(book);
 	}
 	
-	//Update book
-	public void updateBook(String id, Book book) {
-		bookRepository.save(book);
-	}
+// 	//Update book
+// 	public void updateBook(String id, Book book) {
+// 		bookRepository.save(book);
+// 	}
 	
 	//delete a book
 	public void deleteBook(String id) {
